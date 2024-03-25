@@ -58,7 +58,23 @@ To get a local copy of the project up and running follow these steps:
 The backend should now be running locally on `http://localhost:3000`.
 
 ## API Documentation
+### All Posts 
+-- Get Request [https://nodejs-blogging-backend.vercel.app](https://nodejs-blogging-backend.vercel.app) 
 
+Queries: ?page=1&pageSize=10&q=football&category=sports&sortBy=post_id&sortOrder=asc
+
+### Single Post
+--GET Request  [https://nodejs-blogging-backend.vercel.app/[id]](https://nodejs-blogging-backend.vercel.app/[id])
+
+#### Updated Single Post
+--PUT Request  [https://nodejs-blogging-backend.vercel.app/[id]](https://nodejs-blogging-backend.vercel.app/[id]) Headers includes authentication token.
+
+
+### ADD Post
+-- POST Request [https://nodejs-blogging-backend.vercel.app/add](https://nodejs-blogging-backend.vercel.app/add) 
+ Headers includes authentication token.
+
+ 
 
 
 ## Contributing
