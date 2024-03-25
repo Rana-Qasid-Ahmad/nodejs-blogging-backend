@@ -75,6 +75,16 @@ Queries: ?page=1&pageSize=10&q=football&category=sports&sortBy=post_id&sortOrder
  Headers includes authentication token.
 
  
+### ADD Post
+-- POST Request [https://nodejs-blogging-backend.vercel.app/register](https://nodejs-blogging-backend.vercel.app/register) 
+
+Request type text/json:
+
+ { 
+   "username":"username",
+  "password":"password"
+ }
+
 
 
 ## Contributing
